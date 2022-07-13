@@ -14,3 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void openRegtype(View view) {
+        startActivity(new Intent(this, RegTypeActivity.class));
+    }
+
+}
